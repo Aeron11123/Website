@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rijan Khatri — BIT student and technology enthusiast.">
+  <title>Rijan Khatri | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader" class="loader"><div class="loader-ring"></div><p>Loading Rijan's portfolio...</p></div>
+  <div class="cursor-glow"></div>
+  <div class="particles" aria-hidden="true"></div>
+
+  <header class="navbar">
+    <a class="brand" href="#home">RIJAN<span>.</span></a>
+    <nav id="navMenu">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a>
+      <a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle dark and light mode">☼</button>
+      <button id="menuToggle" class="icon-btn menu-btn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-pad">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">WELCOME TO MY PERSONAL WEBSITE</p>
+        <h1>Hi, I'm <span>Rijan Khatri.</span></h1>
+        <h2 class="typing-line">I'm <span id="typingText"></span><span class="caret">|</span></h2>
+        <p class="hero-text">A BIT student and Junior Assistant in Finance, interested in technology, learning new skills and building a strong future step by step.</p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#about">Explore My Profile ↓</a>
+          <a class="btn secondary" href="Rijan-Khatri-CV.pdf" download>Download CV ↓</a>
+          <a class="btn ghost" href="#contact">Contact Me ↗</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.instagram.com/aeron_khatri" target="_blank" rel="noopener">Instagram ↗</a>
+          <a href="https://www.facebook.com/share/18QE6FeBGP/" target="_blank" rel="noopener">Facebook ↗</a>
+          <a href="https://github.com/Aeron11123/Website" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="hero-photo reveal">
+        <div class="photo-aura"></div>
+        <div class="photo-frame"><img src="profile.jpg" alt="Rijan Khatri"></div>
+        <div class="floating-card card-one">🎓 <span><b>BIT Student</b><small>Padmashree College</small></span></div>
+        <div class="floating-card card-two">💼 <span><b>Junior Assistant</b><small>Finance Department</small></span></div>
+      </div>
+    </section>
+
+    <section class="stats section-pad reveal" aria-label="Portfolio highlights">
+      <div class="stat"><strong data-count="3">0</strong><span>Focus Areas</span></div>
+      <div class="stat"><strong data-count="8">0</strong><span>Core Skills</span></div>
+      <div class="stat"><strong data-count="4">0</strong><span>Project Areas</span></div>
+      <div class="stat"><strong id="visitorCount">0</strong><span>Local Visits</span></div>
+    </section>
+
+    <section id="about" class="section-pad section">
+      <div class="section-heading reveal"><p class="eyebrow">ABOUT ME</p><h2>A little bit <span>about me.</span></h2><p>Student, professional and lifelong learner.</p></div>
+      <div class="about-grid">
+        <article class="card large reveal"><span class="number">01</span><h3>Who I am</h3>
+          <p>I'm Rijan Khatri, currently studying Bachelor of Information Technology (BIT) at Padmashree College, Tinkune, under Nilai University.</p>
+          <p>Alongside my studies, I work as a Junior Assistant in the Finance Department at United Ajod Insurance Limited.</p>
+          <p>My goal is to combine technology, practical experience and continuous learning to build a stable career in IT.</p>
+        </article>
+        <article class="card reveal"><div class="big-icon">💡</div><h3>Currently Learning</h3><p>HTML, CSS, JavaScript, MySQL, Linux, AWS and practical software skills.</p></article>
+        <article class="card reveal"><div class="big-icon">🎯</div><h3>My Goals</h3><p>Grow in IT, improve my problem-solving ability, build useful projects and become financially independent.</p></article>
+        <article class="card reveal"><div class="big-icon">🌱</div><h3>Interests</h3><p>Technology, websites, computers, learning new things, gaming and exploring how software works.</p></article>
+      </div>
+    </section>
+
+    <section id="education" class="section-pad section alt">
+      <div class="section-heading reveal"><p class="eyebrow">EDUCATION</p><h2>My learning <span>journey.</span></h2></div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div><div class="timeline-content">
+            <span class="pill current">CURRENT</span>
+            <a class="institution-logo" href="https://www.padmashreecollege.edu.np/" target="_blank" rel="noopener"><img src="padmashree-logo.png" alt="Padmashree College logo"></a>
+            <h3>Bachelor of Information Technology (BIT)</h3>
+            <h4><a href="https://www.padmashreecollege.edu.np/" target="_blank" rel="noopener">Padmashree College, Tinkune ↗</a> · Nilai University</h4>
+            <p>Currently pursuing BIT and building knowledge in information technology, databases, programming and related fields.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div><div class="timeline-content">
+            <span class="pill">COMPLETED</span>
+            <a class="institution-logo" href="https://chanakya.edu.np/" target="_blank" rel="noopener"><img class="chanakya" src="chanakya-logo.png" alt="Chanakya College logo"></a>
+            <h3>+2 / Higher Secondary Education</h3>
+            <h4><a href="https://chanakya.edu.np/" target="_blank" rel="noopener">Chanakya College of Management ↗</a></h4>
+            <p>Completed +2 education before continuing my academic journey in information technology.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section-pad section">
+      <div class="section-heading reveal"><p class="eyebrow">EXPERIENCE</p><h2>What I do <span>professionally.</span></h2></div>
+      <article class="experience-card reveal">
+        <a class="company-logo" href="https://uail.com.np/" target="_blank" rel="noopener"><img src="uail-logo.png" alt="United Ajod Insurance Limited logo"></a>
+        <div class="experience-copy"><span class="pill current">CURRENT ROLE</span><h3>Junior Assistant — Finance Department</h3><h4><a href="https://uail.com.np/" target="_blank" rel="noopener">United Ajod Insurance Limited ↗</a></h4>
+          <p>Working in the Finance Department while continuing my BIT studies. This role is helping me develop professional discipline, workplace experience and practical financial knowledge.</p>
+          <ul><li>Supporting day-to-day finance-related work</li><li>Working with reports, payment adjustments and reconciliations</li><li>Developing accuracy, communication and professional responsibility</li></ul>
+        </div>
+      </article>
+    </section>
+
+    <section id="skills" class="section-pad section alt">
+      <div class="section-heading reveal"><p class="eyebrow">SKILLS</p><h2>Tools I am <span>building with.</span></h2></div>
+      <div class="skills-grid">
+        <div class="skill reveal"><div><b>HTML</b><span>90%</span></div><div class="bar"><i style="--level:90%"></i></div></div>
+        <div class="skill reveal"><div><b>CSS</b><span>85%</span></div><div class="bar"><i style="--level:85%"></i></div></div>
+        <div class="skill reveal"><div><b>JavaScript</b><span>70%</span></div><div class="bar"><i style="--level:70%"></i></div></div>
+        <div class="skill reveal"><div><b>MySQL</b><span>75%</span></div><div class="bar"><i style="--level:75%"></i></div></div>
+        <div class="skill reveal"><div><b>Linux</b><span>70%</span></div><div class="bar"><i style="--level:70%"></i></div></div>
+        <div class="skill reveal"><div><b>AWS</b><span>65%</span></div><div class="bar"><i style="--level:65%"></i></div></div>
+        <div class="skill reveal"><div><b>MS Excel</b><span>80%</span></div><div class="bar"><i style="--level:80%"></i></div></div>
+        <div class="skill reveal"><div><b>Communication & Problem Solving</b><span>80%</span></div><div class="bar"><i style="--level:80%"></i></div></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-pad section">
+      <div class="section-heading reveal"><p class="eyebrow">PROJECTS</p><h2>Things I <span>have built.</span></h2><p>Academic, practice and future project ideas.</p></div>
+      <div class="project-grid">
+        <article class="project-card reveal"><span class="project-no">01</span><div class="big-icon">🌐</div><h3>Personal Portfolio Website</h3><p>A responsive portfolio built with HTML, CSS and JavaScript with animations, theme switching and mobile support.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="https://github.com/Aeron11123/Website" target="_blank" rel="noopener">GitHub ↗</a></article>
+        <article class="project-card reveal"><span class="project-no">02</span><div class="big-icon">🗄️</div><h3>Database Projects</h3><p>Practice work involving MySQL, database design, queries and academic DBMS concepts.</p><div class="tags"><span>MySQL</span><span>DBMS</span></div><span class="coming">Academic / Practice</span></article>
+        <article class="project-card reveal"><span class="project-no">03</span><div class="big-icon">☁️</div><h3>AWS Practice</h3><p>Hands-on learning with cloud concepts, instances and Linux-based practice environments.</p><div class="tags"><span>AWS</span><span>Linux</span></div><span class="coming">Learning Project</span></article>
+        <article class="project-card reveal"><span class="project-no">04</span><div class="big-icon">🚀</div><h3>Future Projects</h3><p>More software, automation and IT projects will be added as I build them.</p><div class="tags"><span>Ideas</span><span>Future</span></div><span class="coming">Coming Soon</span></article>
+      </div>
+    </section>
+
+    <section id="achievements" class="section-pad section alt">
+      <div class="section-heading reveal"><p class="eyebrow">ACHIEVEMENTS</p><h2>Learning beyond the <span>classroom.</span></h2></div>
+      <div class="achievement-grid">
+        <article class="card reveal"><div class="big-icon">🏆</div><h3>Certificates</h3><p>Certificates and training achievements can be added here as I complete them.</p></article>
+        <article class="card reveal"><div class="big-icon">📜</div><h3>Training & Workshops</h3><p>A dedicated place for workshops, technical training and professional development.</p></article>
+        <article class="card reveal"><div class="big-icon">⭐</div><h3>Academic Progress</h3><p>Continuing my BIT journey and building practical skills alongside academic learning.</p></article>
+      </div>
+    </section>
+
+    <section id="cv" class="section-pad section">
+      <div class="section-heading reveal"><p class="eyebrow">MY CV</p><h2>My <span>curriculum vitae.</span></h2><p>A quick look at my education, skills and background.</p></div>
+      <article class="experience-card cv-card reveal">
+        <div class="cv-icon" aria-hidden="true">📄</div>
+        <div class="experience-copy">
+          <span class="pill current">UPDATED CV</span>
+          <h3>Rijan Khatri — Curriculum Vitae</h3>
+          <p>View or download my latest CV to learn more about my background, education, skills and interests.</p>
+          <div class="hero-buttons">
+            <a class="btn primary" href="Rijan-Khatri-CV.pdf" target="_blank" rel="noopener">View CV ↗</a>
+            <a class="btn secondary" href="Rijan-Khatri-CV.pdf" download>Download CV ↓</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="unique" class="section-pad section alt">
+      <div class="section-heading reveal"><p class="eyebrow">JUST FOR FUN</p><h2>Get to know <span>me better.</span></h2></div>
+      <div class="unique-grid">
+        <article class="card reveal"><h3>⚡ Fun Facts</h3><ul class="clean-list"><li>I enjoy learning technology by actually building things.</li><li>I like improving a project little by little.</li><li>I am interested in both IT and practical professional experience.</li></ul></article>
+        <article class="card reveal"><h3>💻 Favorite Technology</h3><div class="favorite-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span><span>AWS</span><span>Linux</span></div></article>
+        <article class="card reveal"><h3>🎮 Hobbies</h3><p>Gaming, exploring technology, working on websites and learning new computer skills.</p></article>
+        <article class="card reveal quiz-card"><h3>🎯 Mini Quiz</h3><p>What am I currently studying?</p><div class="quiz-options"><button data-answer="wrong">BBA</button><button data-answer="correct">BIT</button><button data-answer="wrong">BHM</button></div><p id="quizResult" class="quiz-result"></p></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad section contact-section">
+      <div class="contact-box reveal">
+        <div class="section-heading"><p class="eyebrow">CONTACT</p><h2>Let's <span>connect.</span></h2><p>Have a question, idea or opportunity? Send me a message.</p></div>
+        <div class="contact-layout">
+          <div class="social-grid">
+            <a class="social" href="https://www.instagram.com/aeron_khatri" target="_blank" rel="noopener"><strong>◎</strong><div><small>INSTAGRAM</small><b>@aeron_khatri</b></div><span>↗</span></a>
+            <a class="social" href="https://www.facebook.com/share/18QE6FeBGP/" target="_blank" rel="noopener"><strong>f</strong><div><small>FACEBOOK</small><b>My Facebook Profile</b></div><span>↗</span></a>
+            <a class="social" href="mailto:khatririjan111@gmail.com"><strong>✉</strong><div><small>EMAIL</small><b>khatririjan111@gmail.com</b></div><span>↗</span></a>
+            <a class="social" href="https://github.com/Aeron11123/Website" target="_blank" rel="noopener"><strong>⌘</strong><div><small>GITHUB</small><b>Rijan-personal-website</b></div><span>↗</span></a>
+          </div>
+          <form id="contactForm" class="contact-form">
+            <input id="name" type="text" placeholder="Your name" required>
+            <input id="email" type="email" placeholder="Your email" required>
+            <textarea id="message" rows="5" placeholder="Your message" required></textarea>
+            <button class="btn primary" type="submit">Send Message ↗</button>
+            <small>Submitting opens your email app with the message prepared.</small>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><b>RIJAN<span>.</span></b><p>Thanks for visiting my website.</p></div>
+    <div class="clock-wrap"><span>Local time</span><strong id="clock">--:--:--</strong></div>
+    <a href="#home">Back to top ↑</a>
+    <p>© <span id="year"></span> Rijan Khatri</p>
+  </footer>
+
+  <div id="toast" class="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
